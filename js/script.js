@@ -4,13 +4,14 @@ when add is clicked, add = true, in box text adds to list, gets reset back to fa
 console.log("...")
 */
 
-let button = document.getElementById("submit");
+let addButton = document.getElementById("submit");
 let input = document.getElementById("new-task-title");
 let todoList = document.getElementById("list");
+let deleteButton = document.getElementById("delete");
 
 function handleAdd(event) {
     event.preventDefault();
-    
+
     let task = input.value;
 
     if (task !== "") {
@@ -22,4 +23,13 @@ function handleAdd(event) {
     }
 }
 
-button.addEventListener("click", handleAdd);
+function handleDelete(event) {
+    event.preventDefault();
+
+    if (todoList !== "") {
+        todoList.deleteChild(todoList);
+    }
+}
+
+addButton.addEventListener("click", handleAdd);
+deleteButton.addEventListener("click", handleDelete);
