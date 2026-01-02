@@ -1,6 +1,28 @@
-# New Project
+# Very Simple TODO List (FD100: #1/100)
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+A basic todo list web application built with HTML and JavaScript.
+
+## Features
+- Add tasks to your list
+- Remove all tasks with one click
+- Clean, minimal interface
+
+## How to Run
+1. Open `index.html` in your web browser
+2. Type a task in the input box
+3. Click "Add" to add it to the list
+4. Click "Remove" to clear all tasks
+
+## Files
+- `index.html` - Main page structure
+- `js/script.js` - Todo list functionality
+
+## What I Learned
+- HTML & JS connection (getElementByIds=("submit"))
+- If structuring ( if (task !== ""))
+- Event listeners (addEventListener)
+- Creating and removing HTML elements dynamically (items=querySelectorAll, items.forEach( item => item.remove())
+- Working with forms and inputs (input.value, input=id value, value for content)
 
 ## Available Scripts
 
