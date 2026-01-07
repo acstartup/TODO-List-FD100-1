@@ -17,6 +17,10 @@ A basic todo list web application built with HTML and JavaScript.
 - `index.html` - Main page structure
 - `js/script.js` - Todo list functionality
 
+## Tools/Languages (Techstack)
+- **JavaScript**
+- **HTML**
+
 ## What I Learned
 - HTML & JS connection (getElementByIds=("submit"))
 - If structuring ( if (task !== ""))
